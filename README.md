@@ -1,12 +1,18 @@
 # video_timecut
-Cut video file into multiples subclips according to timecodes in and out stored in a csv file
-Made by A.Mansat with Chat GPT 4.0
+Cut video file into multiples subclips according to timecodes in and out stored in a csv file<br/>
+Made by A.Mansat with Chat GPT 4.0<br/>
 
-timecode format: MM:SS/FPS 50.
+# csv file format<br/>
+id;start_time;end_time<br/>
+clip1;00:53:43;01:16:10<br/>
+clip2;01:19:40;01:44:10<br/>
 
-Chhange source code for time convertion: def time_to_seconds(time_str, fps=50):#change fps value here according to your video file framerate
 
-Add 1 seconde before and after via checkbox if needed
+# timecode format: MM:SS/FPS 50<br/>
+
+Change source code for time convertion:<br/>
+def time_to_seconds(time_str, fps=50):#change fps value here according to your video file framerate<br/>
+Add 1 seconde before and after via checkbox if needed<br/>
 
 # Interface
 
