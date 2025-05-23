@@ -2,8 +2,9 @@
 Cut video file into multiples subclips according to timecodes in and out stored in a csv file
 Made by A.Mansat with Chat GPT 4.0
 
-timecode format: MM:SS/FPS 50
-change source code for time convertion
+timecode format: MM:SS/FPS 50.
+
+Chhange source code for time convertion: def time_to_seconds(time_str, fps=50):#change fps value here according to your video file framerate
 
 Add 1 seconde before and after via checkbox if needed
 
