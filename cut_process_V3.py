@@ -19,7 +19,7 @@ def select_output_dir():
     if path:
         output_dir_var.set(path)
 
-def time_to_seconds(time_str, fps=50):
+def time_to_seconds(time_str, fps=50):#change fps value here according to your video file framerate
     parts = time_str.strip().split(':')
     if len(parts) != 3:
         raise ValueError(f"Format invalide : '{time_str}'. Attendu MM:SS:FF à {fps} FPS")
