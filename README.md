@@ -1,6 +1,10 @@
-# video_timecut
+# video_timecut</br>
 Cut video file into multiples subclips according to timecodes in and out stored in a csv file<br/>
 Made by A.Mansat with Chat GPT 4.0<br/>
+
+# Process</br>
+
+![Découpe de fichier sources - visual selection](https://github.com/user-attachments/assets/f56296dc-6fde-4f0a-a3f8-2146fe94eb88)
 
 # csv file format<br/>
 id;start_time;end_time<br/>
