@@ -22,4 +22,9 @@ Add 1 seconde before and after via checkbox if needed<br/>
 
 ![Python Video Cut (1)](https://github.com/user-attachments/assets/0de29bd8-2643-45cb-a907-34072df1397c)
 
+# Worflow
+
+![Python Video Cut - visual selection](https://github.com/user-attachments/assets/861b097b-ba73-4b3e-8a42-088dfd9b05e7)
+
+
 
